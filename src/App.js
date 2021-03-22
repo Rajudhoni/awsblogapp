@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import DisplayPost from './components/DisplayPost';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Aws Appsync Blog App</h1>
+      <DisplayPost/>
     </div>
   );
 }
